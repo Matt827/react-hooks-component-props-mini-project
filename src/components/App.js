@@ -13,8 +13,7 @@ function App() {
       <Header name={blogData.name}/>
       <About about={blogData.about} image={blogData.image}/>
       <ArticleList posts={blogData.posts}/>
-      <Article title={blogData.title} date={blogData.date} preview={blogData.preview}/>
-
+      
     </div>
   );
 }
